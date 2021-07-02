@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  width: 100wv;
+  height: 100vh;
+  background-color: lightgrey;
+  display: flex;
+}
+.leftBlock {
+  width: 30%;
+  height: 100vh;
+}
+.searchPlace {
+  width: 100%;
+  height: 25%;
+border-right: 3px solid rgb(197, 197, 197);
+}
+.myPhoto {
+  width: 100%;
+  height: 70%;
+}
+.myPhoto img{
+  width: 50px;
+  height: 50px;
+  margin: 30px;
+}
+.searchArea {
+  width: 100%;
+  height: 30%;
+  text-align: center;
+}
+.searhInput {
+  width: 80%;
+  height: 30px;
+  border: 2px solid rgb(197, 197, 197);
+  padding-left: 10px;
+  border-radius: 20px;
+}
+.searhInput:focus {
+  outline: none;
+}
+.myContacts {
+  width: 100%;
+  height: 75%;
+  border: 3px solid rgb(197, 197, 197);
+  background-color: #fff;
+  overflow-y: scroll;
+}
+.myContacts ol li{
+  list-style-type:none;
+}
+.myContacts ol li:hover{
+  background-color: rgb(184, 180, 180);
+  cursor: pointer;
+}
+.title{
+    height: 100px;
+    color: blue;
+    font-size: 25px;
+}
+.title span{
+    line-height: 100px;
+    margin-left: 10px;
+}
+.contactsBlock{
+  height: 100px;
+  border-bottom: 3px solid rgb(197, 197, 197);
+  display: flex;
+}
+.contactsPhoto{
+  width: 20%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.photo img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.nameText{
+  width: 60%;
+  height: 100px;
+  padding-top: 30px;
+}
+.name{
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.mesText{
+font-size: 12px;
+height: 30px;
+overflow: hidden;
+}
+.date{
+  padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rightBlock {
+  width: 70%;
+  height: 100vh;
+}

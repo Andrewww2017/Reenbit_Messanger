@@ -1,0 +1,15 @@
+<div class="header">
+        <div class="headerPhoto"><img [src]="userImage"></div>
+        <div class="headerName">{{userName}}</div>
+</div>
+<div class="messageHistory">
+        <div *ngFor="let message of arrMessages" class="myMessage" [ngClass]="{'right': message.isOwnMes}" >
+                <div class="messageBoxText">{{message.message}}</div>
+                <div class="mesageBoxDate">{{message.creationDate | date: 'short'}}</div>
+        </div>
+</div>
+<div class="footer">
+        <input [(ngModel)]="newMessage" name="newMessage" class="mesageSend" type="text"
+                placeholder="Type your message">
+        <button class="send-button" (click)="sendBtn()"></button>
+</div>
